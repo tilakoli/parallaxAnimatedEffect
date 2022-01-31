@@ -7,9 +7,10 @@ let parallaxInstance = new Parallax(scene);
 let keys = ["Mercury", "Venus"];
 
 let slider = new Swiper(".swiper-container", {
-  slidesPreView: "auto",
+  slidesPerView: "auto",
   spaceBetween: 150,
   centeredSlides: true,
+  MouseEvents: true,
   mouseWheel: true,
   pagination: {
     el: ".planet-links",
